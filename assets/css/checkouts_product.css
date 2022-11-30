@@ -1,0 +1,95 @@
+.infor-product-order {
+    padding-top: 15px;
+    border-bottom: 1px solid #dadada;
+}
+.product-item {
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.product-img {
+    position: relative;
+}
+.product-img img {
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #e5e2e2;
+}
+.quantity-product {
+    position: absolute;
+    background-color: #a3a3a3;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.quantity-product span {
+    width: max-content;
+}
+.product-name {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #484848;
+}
+.product-price {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-weight: 600;
+}
+.ma-giam-gia {
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #dadada;
+}
+.ma-giam-gia input {
+    width: 70%;
+    padding: 12px 10px;
+    font-size: 15px;
+    outline: navajowhite;
+    border-radius: 4px;
+    border: 1px solid #999;
+    transition: all 0.2s ease-out;
+}
+.ap-dung-ma {
+    background-color: #c8c8c8;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.ma-giam-gia input:focus {
+    box-shadow: 0 0 0 2px #338dbc;
+}
+.tam-tinh {
+    padding: 10px 0;
+    border-bottom: 1px solid #dadada;
+    padding-right: 20px;
+}
+.tam-tinh-main ,.phi-van-chuyen,.tong-cong {
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.tong-cong {
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+@media  screen and (max-width:740px) {
+    .checkout_product {
+        margin: 20px;
+    }
+    .ap-dung-ma {
+        font-size: 12px;
+    }
+}
